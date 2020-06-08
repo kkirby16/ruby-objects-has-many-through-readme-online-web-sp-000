@@ -34,6 +34,9 @@ end
     best_tipped_meal.customer
   end
   
+  def avg_tips_most_experienced 
+  end
+  
   def most_frequent_customer 
     meals.max_by |meal| meal.customer.length
     binding.pry
