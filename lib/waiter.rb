@@ -29,5 +29,6 @@ def meals
       meal_a.tip <=> meal_b.tip 
     end 
     best_tipped_meal.customer
+  end
 
 end
