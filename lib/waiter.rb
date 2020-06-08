@@ -32,6 +32,7 @@ end
     best_tipped_meal.customer
   end
   
-  def most_frequent_customer
+  def most_frequent_customer 
+    meals.
 
 end
