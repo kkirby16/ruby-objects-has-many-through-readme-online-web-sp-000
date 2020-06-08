@@ -33,6 +33,7 @@ end
   end
   
   def most_frequent_customer 
-    meals.
+    meals
+    
 
 end
