@@ -34,6 +34,10 @@ end
     best_tipped_meal.customer
   end
   
+  def meal_of_waiters_worst_tipping_customer 
+    worst_tipped_meal = 
+    meals.min do 
+  
   def most_frequent_customer 
     meals.max_by |meal| meal.customer.length
     binding.pry
