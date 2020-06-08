@@ -36,7 +36,8 @@ end
   
   def meal_of_waiters_worst_tipping_customer 
     worst_tipped_meal = 
-    meals.min do 
+    meals.min do |meal_a, meal_b| 
+      meal_a.tip <=> meal_b.tip
   
   def most_frequent_customer 
     meals.max_by |meal| meal.customer.length
