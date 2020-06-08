@@ -35,7 +35,7 @@ end
   end
   
   def most_frequent_customer 
-    meals.max_by |customer| customer.length 
+    meals.max_by |meal| meal.customer.length
     binding.pry
   end
 
